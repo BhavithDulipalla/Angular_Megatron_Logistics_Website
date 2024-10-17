@@ -1,0 +1,94 @@
+/* Main container for the About section */
+.about {
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Header section */
+.about-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.about-header h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.about-header p {
+  font-size: 1.2rem;
+  color: #777;
+}
+
+/* Company details section */
+.company-details {
+  margin-bottom: 2rem;
+}
+
+.company-details p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+/* Services section */
+.services {
+  margin-bottom: 2rem;
+}
+
+.services h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.services ul {
+  list-style: none;
+  padding: 0;
+}
+
+.services ul li {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  padding-left: 1.2rem;
+  position: relative;
+}
+
+.services ul li::before {
+  content: '✔';
+  color: #007bff;
+  position: absolute;
+  left: 0;
+}
+
+/* Vision and mission section */
+.vision-mission {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.vision, .mission {
+  width: 45%;
+  margin-bottom: 2rem;
+}
+
+.vision h3, .mission h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.vision p, .mission p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .vision, .mission {
+    width: 100%;
+  }
+}
